@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import '../providers/login_form_provider.dart';
 import '../ui/inputs_decoration.dart';
 
-import '../widgets/widgedts.dart';
+import '../widgets/widgets.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

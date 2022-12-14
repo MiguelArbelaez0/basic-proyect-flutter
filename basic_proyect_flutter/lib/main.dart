@@ -1,4 +1,3 @@
-import 'package:basic_proyect_flutter/screens/homescreen.dart';
 import 'package:basic_proyect_flutter/screens/screens.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      initialRoute: 'login',
+      initialRoute: 'homescreen',
       routes: {
         'login': (context) => LoginScreen(),
         'homescreen': (context) => HomeScreen()
